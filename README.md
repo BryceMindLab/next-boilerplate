@@ -27,9 +27,9 @@ ES-Lint for React Hooks
 ## Routing 
 https://nextjs.org/docs/routing/introduction
 
-## Structure 
-(**Depreciated)
-https://sergiodxa.com/articles/next-file-structure/
+## Testing
+- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
+- [React Testing recipes](https://reactjs.org/docs/testing-recipes.html)
 
 # TODO: 
 - StoryBook
