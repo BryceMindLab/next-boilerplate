@@ -22,6 +22,12 @@ module.exports = {
 	},
 	plugins: [ 'react', '@typescript-eslint', 'react-hooks' ],
 	rules: {
+		'@typescript-eslint/no-explicit-any': 'on',
+		'@typescript-eslint/no-parameter-properties': 'on',
+		'@typescript-eslint/no-unused-vars': [
+			'on',
+			{ argsIgnorePattern: '^_', varsIgnorePattern: '^ignored?$' },
+		],
 		'react-hooks/rules-of-hooks': 'error',
 		'react-hooks/exhaustive-deps': 'warn',
 	},
