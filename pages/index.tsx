@@ -3,7 +3,7 @@ import Header from '../components/Header';
 import styled from 'styled-components';
 
 const Title = styled.h1`
-	font-size: 2rem;
+	font-size: 4rem;
 	color: ${({ theme }: { theme: Theme }) => theme.colors.primary || '#ffffff'};
 `;
 
