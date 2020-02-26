@@ -14,13 +14,8 @@ Boilerplate code for NextJS, Redux, Styled Components and Storybook in Typescrip
 `npm install --save-dev typescript @types/react @types/node`  
 [⌨️ React in Typescript](https://fettblog.eu/typescript-react/components/)
 
-## Redux
-`npm install react-redux @types/react-redux` 
-- [😀 React-Redux Tips!](https://blog.isquaredsoftware.com/presentations/workshops/redux-fundamentals/react-redux.html#/0)  
-- [Organizing Redux Applications](https://jaysoo.ca/2016/02/28/organizing-redux-application/)
-- [Redux with Ducks](https://www.freecodecamp.org/news/scaling-your-redux-app-with-ducks-6115955638be/)
-
-![redux-diagram](images/redux-diagram.png)
+ES-Lint for React Hooks
+`npm install eslint-plugin-react-hooks --save-dev`
 
 ## [Styled Components](https://styled-components.com/docs)
 `npm install --save styled-components @types/styled-components`  
@@ -38,7 +33,6 @@ https://sergiodxa.com/articles/next-file-structure/
 
 # TODO: 
 - StoryBook
-- Redux / Redux Sagas
 - PropTypes: Autogenerate PropTypes from Interface: [babel-plugin-typescript-to-proptypes](https://github.com/milesj/babel-plugin-typescript-to-proptypes)
 - Prettier
 - Snack-bar 
