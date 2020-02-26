@@ -1,0 +1,37 @@
+{
+	"name": "next-redux-boilerplate",
+	"version": "1.0.0",
+	"description": "Boilerplate code for NextJS, Redux, Styled Components and Storybook in Typescript.",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "next",
+		"build": "next build",
+		"start": "next start"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/BryceDoganer/next-redux-boilerplate.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/BryceDoganer/next-redux-boilerplate/issues"
+	},
+	"homepage": "https://github.com/BryceDoganer/next-redux-boilerplate#readme",
+	"dependencies": {
+		"@types/react-redux": "^7.1.7",
+		"@types/styled-components": "^4.4.3",
+		"next": "^9.2.1",
+		"react": "^16.12.0",
+		"react-dom": "^16.12.0",
+		"react-redux": "^7.2.0",
+		"styled-components": "^5.0.1"
+	},
+	"devDependencies": {
+		"@types/node": "^13.7.0",
+		"@types/react": "^16.9.19",
+		"typescript": "^3.7.5"
+	}
+}
